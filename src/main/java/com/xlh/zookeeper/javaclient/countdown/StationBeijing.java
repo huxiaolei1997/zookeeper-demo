@@ -1,17 +1,14 @@
-package com.xlh.zookeeper.countdown;
-
-import com.xlh.zookeeper.countdown.DangerCenter;
+package com.xlh.zookeeper.javaclient.countdown;
 
 import java.util.concurrent.CountDownLatch;
 
 /**
  * @author xiaolei hu
- * @date 2018/12/31 19:51
+ * @date 2018/12/31 19:50
  **/
-public class StationZhejiang extends DangerCenter {
-
-    public StationZhejiang(CountDownLatch countDownLatch) {
-        super(countDownLatch, "浙江杭州调度站");
+public class StationBeijing extends DangerCenter {
+    public StationBeijing(CountDownLatch countDownLatch) {
+        super(countDownLatch, "北京海淀调度站");
     }
 
     /**
@@ -27,7 +24,7 @@ public class StationZhejiang extends DangerCenter {
         System.out.println("正在检查[" + this.getStation() + "]...");
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

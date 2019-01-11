@@ -1,8 +1,7 @@
-package com.xlh.zookeeper.zk.demo;
+package com.xlh.zookeeper.javaclient.zk.demo;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.ACL;
-import org.apache.zookeeper.data.Stat;
 
 import java.io.IOException;
 import java.util.List;

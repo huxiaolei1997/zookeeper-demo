@@ -1,4 +1,4 @@
-package com.xlh.zookeeper.zk.demo;
+package com.xlh.zookeeper.javaclient.zk.demo;
 
 import org.apache.zookeeper.AsyncCallback;
 import org.apache.zookeeper.data.Stat;

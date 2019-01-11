@@ -1,4 +1,4 @@
-package com.xlh.zookeeper.countdown;
+package com.xlh.zookeeper.javaclient.countdown;
 
 import java.util.ArrayList;
 import java.util.List;
