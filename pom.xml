@@ -9,8 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>zookeeper-demo</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -115,48 +114,41 @@
             <artifactId>httpclient</artifactId>
             <version>4.3.5</version>
         </dependency>
-        <!-- 单元测试 -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
 
-        <!-- Mybatis -->
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.2.8</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis-spring</artifactId>
-            <version>1.2.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.miemiedev</groupId>
-            <artifactId>mybatis-paginator</artifactId>
-            <version>1.2.15</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.pagehelper</groupId>
-            <artifactId>pagehelper</artifactId>
-            <version>4.1.3</version>
-        </dependency>
-        <!-- MySql -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.41</version>
-        </dependency>
+        <!--&lt;!&ndash; Mybatis &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>org.mybatis</groupId>-->
+        <!--<artifactId>mybatis</artifactId>-->
+        <!--<version>3.2.8</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>org.mybatis</groupId>-->
+        <!--<artifactId>mybatis-spring</artifactId>-->
+        <!--<version>1.2.2</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>com.github.miemiedev</groupId>-->
+        <!--<artifactId>mybatis-paginator</artifactId>-->
+        <!--<version>1.2.15</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>com.github.pagehelper</groupId>-->
+        <!--<artifactId>pagehelper</artifactId>-->
+        <!--<version>4.1.3</version>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash; MySql &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>mysql</groupId>-->
+        <!--<artifactId>mysql-connector-java</artifactId>-->
+        <!--<version>5.1.41</version>-->
+        <!--</dependency>-->
 
-        <!-- 连接池 阿里巴巴数据源 全世界最牛逼的data source 没有之一 -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.1.0</version>
-        </dependency>
+        <!--&lt;!&ndash; 连接池 阿里巴巴数据源 全世界最牛逼的data source 没有之一 &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>com.alibaba</groupId>-->
+        <!--<artifactId>druid</artifactId>-->
+        <!--<version>1.1.0</version>-->
+        <!--</dependency>-->
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -194,41 +186,41 @@
             <version>4.3.3.RELEASE</version>
         </dependency>
         <!-- JSP相关 -->
-        <dependency>
-            <groupId>jstl</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
-        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>jstl</groupId>-->
+        <!--<artifactId>jstl</artifactId>-->
+        <!--<version>1.2</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jsp-api</artifactId>
-            <version>2.0</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>javax.servlet</groupId>-->
+            <!--<artifactId>jsp-api</artifactId>-->
+            <!--<version>2.0</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
         <!-- 文件上传组件 -->
-        <dependency>
-            <groupId>commons-fileupload</groupId>
-            <artifactId>commons-fileupload</artifactId>
-            <version>1.3.1</version>
-        </dependency>
-        <!-- Redis客户端 -->
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>2.8.0</version>
-        </dependency>
-        <!-- solr客户端 -->
-        <dependency>
-            <groupId>org.apache.solr</groupId>
-            <artifactId>solr-solrj</artifactId>
-            <version>4.10.3</version>
-        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>commons-fileupload</groupId>-->
+        <!--<artifactId>commons-fileupload</artifactId>-->
+        <!--<version>1.3.1</version>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash; Redis客户端 &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>redis.clients</groupId>-->
+        <!--<artifactId>jedis</artifactId>-->
+        <!--<version>2.8.0</version>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash; solr客户端 &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>org.apache.solr</groupId>-->
+        <!--<artifactId>solr-solrj</artifactId>-->
+        <!--<version>4.10.3</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>
@@ -289,8 +281,8 @@
 
                 <!-- 配置sts插件 -->
                 <!--<plugin>-->
-                    <!--<artifactId>maven-eclipse-plugin</artifactId>-->
-                    <!--<version>2.9</version>-->
+                <!--<artifactId>maven-eclipse-plugin</artifactId>-->
+                <!--<version>2.9</version>-->
                 <!--</plugin>-->
             </plugins>
         </pluginManagement>
